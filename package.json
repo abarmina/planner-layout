@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.pug",
-    "devopen": "parcel src/index.pug --open 'google chrome'",
-    "build": "parcel build src/index.pug"
+    "dev": "parcel src/login.pug",
+    "devopen": "parcel src/login.pug --open 'google chrome'",
+    "build": "parcel build src/login.pug"
   },
   "keywords": [],
   "author": "",
