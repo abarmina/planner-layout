@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    title="Framework"
+    link(rel="stylesheet", href="style.scss")
+  body
+    div
+      div
+        input.input(
+          type="text"
+          placeholder="Введите логин"
+          name="name"
+        )
+      div 
+        input.input.input--error(
+          type="text"
+          placeholder="Ошибка"
+          name="name"
+        )
+      div
+        button.button(name="submit") Добавить
+      div.field
+        p.field__text Открыть проект Planer
+        p.field__time 18:00
+      
