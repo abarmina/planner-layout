@@ -1,32 +1,43 @@
-// color
-$black: #000000;
-$blue-grey: #7b8aa8;
+// colors
+$text-color: #000000;
+$input--active: #7b8aa8;
 $brown: #333333;
-$brownish-grey: #636363;
+$img--active: #636363;
 $brown-grey-two: #575757;
 $brownish-pink: #cb7f7f;
 $charcoal-grey: #2a2b30;
 $dark-lavender: #7c73a2;
 $dark-lavender-two: #73709f;
-$dark-periwinkle: #798cd4;
+$img--hover: #798cd4;
 $dusky-blue: #415b8d;
-$grey-blue: #7a7db2;
-$grey-blue-two: #7989b4;
+$btn--hover: #7a7db2;
+$field--active: #7989b4;
 $light-grey-blue: #9fb3d1;
-$light-grey-blue-two: #a3b1cd;
-$light-navy: #194b7f;
+$input--default: #a3b1cd;
+$gradient-two: #194b7f;
 $light-navy-blue: #335588;
 $light-navy-blue-two: #2c5286;
-$light-plum: #b88cb7;
-$pale-grey: #dadfe6;
-$perrywinkle: #749ae3;
-$pinkish-grey: #cda3a3;
+$gradient-one: #b88cb7;
+$field--default: #dadfe6;
+$input--hover: #749ae3;
+$input--error: #cda3a3;
 $pinkish-grey-two: #d0d0d0;
-$slate-blue: #696c9b;
-$steel: #787a9e;
+$btn--default: #696c9b;
+$btn--active: #787a9e;
 $twilight: #566495;
-$twilight-two: #566394;
+$img--default: #566394;
 $white: #ffffff;
 $white-grey: #ececec;
 $warm-grey: #979797;
 $white-two: #d4d4d4;
+
+//font-family
+$font-family: "ProximaNova", sans-serif;
+
+//font-size
+$font-size: 1em;
+$font-size--h1: 1.5em;
+$font-size--small: 0.7em;
+
+//line-height
+$line-height: 1em;
