@@ -1,0 +1,10 @@
+.svg {
+    border: none;
+    background-color: transparent;
+    &:hover #littleCalendar {
+        fill: $img-color-hover;
+    }
+    &:active #littleCalendar {
+        fill: $img-color-active;
+    }
+}

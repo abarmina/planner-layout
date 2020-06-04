@@ -1,0 +1,22 @@
+.input {
+    min-width: 320px;
+    box-sizing: border-box;
+    border: 1px solid $input-color;
+    border-radius: 2px;
+    padding: 10px 0px 10px 15px;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $text-color;
+    &:hover {
+        border: 1px solid $input-color-hover;
+    }
+    &:active {
+        border: 1px solid $input-color-active;
+    }
+    &--error {
+        border: 1px solid $input-color-error;
+        &::placeholder {
+            color: $input-color-error;
+        }
+    }
+}

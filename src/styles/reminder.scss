@@ -1,0 +1,24 @@
+.reminder {
+    width: 125px;
+    height: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: $field-color;
+    border-radius: 3px;
+    font-size: $font-size-small;
+    &:active {
+        background-color: $field-color-active;
+    }
+    &__text {
+        width: 85px;
+        text-align: left;
+        padding: 5px 0px 5px 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    &__time {
+        padding: 5px 0px;
+    }
+}
