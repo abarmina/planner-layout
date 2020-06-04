@@ -5,23 +5,15 @@ html(lang="ru")
     title="Framework"
     link(rel="stylesheet", href="style.scss")
   body
-    div.framework
+    div
       div
-        input.input(
-          type="text"
-          placeholder="Введите логин"
-          name="name"
-        )
-      div 
-        input.input.input_error(
-          type="text"
-          placeholder="Ошибка"
-          name="name"
-        )
-      div
-        button.button(name="add" type="submit" value="ok") Добавить
-      div.task-field
+        input.input(type="text" name="name" placeholder="Введите логин")
+      div.margin-top
+        input.input.input_error(type="text" name="name" placeholder="Ошибка")
+      div.margin-top
+        button.button(type="submit" name="add" value="ok") Добавить
+      div.task-field.margin-top
         span.task-field__text Открыть проект Planer
         span.task-field__time 18:00
-      a(href="#")
+      button.svg.margin-top(type="button" name="open" value="calendar")
         include images/small-calendar.svg

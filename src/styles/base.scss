@@ -9,14 +9,3 @@ body {
     color: $text-color;
     padding: 30px;
 }
-
-svg {
-    margin-top: 15px; ////will be deleted with framework.pug
-    fill: $img--default;
-    &:hover #littleCalendar {
-        fill: $img--hover;
-    }
-    &:active #littleCalendar {
-        fill: $img--active;
-    }
-}
