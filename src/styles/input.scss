@@ -1,0 +1,23 @@
+.input {
+    min-width: 320px;
+    box-sizing: border-box;
+    border: 1px solid $input--default;
+    border-radius: 2px;
+    margin-bottom: 15px; //will be deleted with framework.pug
+    padding: 10px 0px 10px 15px;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $text-color;
+    &:hover {
+        border: 1px solid $input--hover;
+    }
+    &:active {
+        border: 1px solid $input--active;
+    }
+    &_error {
+        border: 1px solid $input--error;
+        &::placeholder {
+            color: $input--error;
+        }
+    }
+}

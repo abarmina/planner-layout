@@ -1,0 +1,15 @@
+.button {
+    background-color: $btn--default;
+    border: 0px;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $white;
+    &:hover {
+        background-color: $btn--hover;
+    }
+    &:active {
+        background-color: $btn--active;
+    }
+}
