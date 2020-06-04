@@ -2,9 +2,9 @@
     border: none;
     background-color: transparent;
     &:hover #littleCalendar {
-        fill: $img-color_hover;
+        fill: $img-color-hover;
     }
     &:active #littleCalendar {
-        fill: $img-color_active;
+        fill: $img-color-active;
     }
 }

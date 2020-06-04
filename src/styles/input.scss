@@ -8,15 +8,15 @@
     font-size: $font-size;
     color: $text-color;
     &:hover {
-        border: 1px solid $input-color_hover;
+        border: 1px solid $input-color-hover;
     }
     &:active {
-        border: 1px solid $input-color_active;
+        border: 1px solid $input-color-active;
     }
-    &_error {
-        border: 1px solid $input-color_error;
+    &--error {
+        border: 1px solid $input-color-error;
         &::placeholder {
-            color: $input-color_error;
+            color: $input-color-error;
         }
     }
 }

@@ -1,4 +1,4 @@
-.task-field {
+.reminder {
     width: 125px;
     height: 20px;
     display: flex;
@@ -6,9 +6,9 @@
     align-items: center;
     background-color: $field-color;
     border-radius: 3px;
-    font-size: $font-size_small;
+    font-size: $font-size-small;
     &:active {
-        background-color: $field-color_active;
+        background-color: $field-color-active;
     }
     &__text {
         width: 85px;
