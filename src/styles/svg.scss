@@ -1,8 +1,12 @@
 .svg {
     border: none;
     background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
     &:hover #littleCalendar {
         fill: $img-color-hover;
+        cursor: pointer;
     }
     &:active #littleCalendar {
         fill: $img-color-active;
