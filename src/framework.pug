@@ -4,16 +4,22 @@ html(lang="ru")
     meta(charset="utf-8")
     title="Framework"
     link(rel="stylesheet", href="style.scss")
-  body
-    div
+  body.gradient
+    div.block.p-1
       div
         input.input(type="text" name="name" placeholder="Введите логин")
-      div.margin-top
+      div.mt-1
         input.input.input--error(type="text" name="name" placeholder="Ошибка")
-      div.margin-top
+      div.mt-1
         button.button(type="submit" name="add" value="ok") Добавить
-      div.reminder.margin-top
+      div.reminder.mt-1
         span.reminder__text Открыть проект Planer
         span.reminder__time 18:00
-      button.svg.margin-top(type="button" name="open" value="calendar")
+      button.svg.mt-1(type="button" name="open" value="calendar")
         include images/small-calendar.svg
+      div.session.mt-1
+        span.session__text PC, Mac OSX, Safari 4.23
+        button.delete-button.delete-button--terminate(type="button" name="terminate" value="session")
+          include images/terminate.svg
+          span.delete-button__text Terminate
+            
