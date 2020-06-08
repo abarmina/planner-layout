@@ -1,0 +1,9 @@
+.date {
+    white-space: nowrap;
+    padding-right: 10px;
+    font-size: $font-size-small;
+    color: $date-color;
+    &--expired {
+        color: $date-color-expired;
+    }
+}
