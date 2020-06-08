@@ -4,11 +4,11 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: $field-color;
+    background-color: $reminder-color;
     border-radius: 3px;
     font-size: $font-size-small;
     &:active {
-        background-color: $field-color-active;
+        background-color: $reminder-color-active;
     }
     &__text {
         width: 85px;
