@@ -17,9 +17,29 @@ html(lang="ru")
         span.reminder__time 18:00
       button.svg.mt-1(type="button" name="open" value="calendar")
         include images/small-calendar.svg
-      div.session.mt-1
-        span.session__text PC, Mac OSX, Safari 4.23
+      div.field.field--session.mt-1
+        span.field__text PC, Mac OSX, Safari 4.23
         button.delete-button.delete-button--terminate(type="button" name="terminate" value="session")
           include images/terminate.svg
           span.delete-button__text Terminate
-            
+      div.field.mt-1
+        label.field__text.field__label
+          input.field__input(type="checkbox" name="task" value="t1") 
+          span.field__checkbox
+          | Подготовить отчеты
+        span.date 23 Августа 2020
+      div.field.mt-1
+        label.field__text.field__label
+          input.field__input(type="checkbox" name="task" value="t2") 
+          span.field__checkbox
+          | Погладить «Пушистика»
+        span.date.date--expired 3 Июня 2020
+      div.field.field--remove.mt-1
+        label.field__text.field__label
+          input.field__input(type="checkbox" name="task" value="t3" checked)
+          span.field__checkbox
+          | Подготовить отчеты
+      button.delete-button.delete-button--remove(type="button" name="remove" value="task")
+        include images/remove.svg
+        span.delete-button__text.delete-button__text--remove Удалить
+          
