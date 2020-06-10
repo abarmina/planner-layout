@@ -11,10 +11,10 @@
         box-sizing: border-box;
         padding: 10px 15px;
         color: $text-color;
-    }
-    &__label {
-        padding-left: 45px;
-        cursor: pointer;
+        &--label {
+            padding-left: 45px;
+            cursor: pointer;
+        }
     }
     &__input {
         width: 1px;
