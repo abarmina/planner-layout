@@ -1,0 +1,43 @@
+.field {
+    width: 610px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: $field-color;
+    &__text {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px 15px;
+        color: $text-color;
+        &--label {
+            padding-left: 45px;
+        }
+    }
+    &__input {
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        
+    }
+    &__checkbox {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        margin-left: -30px;
+        background-image: url(images/empty-checkbox.svg);
+    }
+    &__input:checked + &__checkbox {
+        width: 15px;
+        height: 15px;
+        background-image: url(images/filled-checkbox.svg);
+    }
+    &--session {
+        justify-content: space-between;
+    }
+    &--remove {
+        display: inline-flex;
+    }
+}

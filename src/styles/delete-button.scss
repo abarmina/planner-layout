@@ -1,0 +1,23 @@
+.delete-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    &__text {
+        padding-left: 5px;
+        font-family: $font-family;
+        font-size: $font-size;
+        &--remove {
+            padding-left: 10px;
+        }
+    }
+    &--terminate {
+        color: $btn-color-terminate;
+    }
+    &--remove {
+        display: inline-flex;
+        color: $btn-color-remove;
+    }
+}
